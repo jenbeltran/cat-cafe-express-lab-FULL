@@ -1,0 +1,28 @@
+{
+  "name": "cat-cafe-express-lab-full",
+  "version": "1.0.0",
+  "description": "FS1020 - Completed cat-cafe-express lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenbeltran/cat-cafe-express-lab-FULL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenbeltran/cat-cafe-express-lab-FULL/issues"
+  },
+  "homepage": "https://github.com/jenbeltran/cat-cafe-express-lab-FULL#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
